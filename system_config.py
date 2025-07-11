@@ -32,7 +32,7 @@ SYSTEMS = {
         "discharge_rate": 1000 / 4
     },
     "electrolyzer": {
-        "capacity": 1,  # MW
+        "capacity": 1000,  # kW
         "lifetime": 20,
         "capital": 1800,
         "O&M": 0.05 * 1800,
@@ -49,6 +49,6 @@ SYSTEMS = {
 # Other constants
 discount_rate = 0.05
 project_lifetime = 60
-electricity_to_hydrogen = 55
+electricity_to_hydrogen = 55 
 hydrogen_price = 6  # USD/kg
 cap_obj = 600000  # Target capacity in kW

@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
-def plot_sample_day_grid(days, smr_gen, wind_gen, solar_gen, total_gen, electricity_sold, battery_soc, demand, electricity_price):
+def plot_sample_day_grid(days, smr_gen, wind_gen, solar_gen, total_gen, electricity_sold, battery_soc, demand, electricity_price, elect_to_h2):
     """
     Plots power generation and demand for selected days in a 2x2 grid.
 
@@ -28,6 +29,7 @@ def plot_sample_day_grid(days, smr_gen, wind_gen, solar_gen, total_gen, electric
         axs[idx].plot(hours, wind_gen[start:end], label="Wind Generation", linewidth=2)
         axs[idx].plot(hours, solar_gen[start:end], label="Solar Generation", linewidth=2)
         axs[idx].plot(hours, battery_soc[start:end], label="Battery SOC", linewidth=2)
+        axs[idx].plot(hours, elect_to_h2[start:end], label="Electricty to H2", linewidth=2)
         axs[idx].plot(hours, total_gen[start:end], label="Total Generation", linestyle='--', linewidth=2)
         axs[idx].plot(hours, electricity_sold[start:end], label="Electricity Sold", linestyle='-.', linewidth=2)
         axs[idx].plot(hours, demand[start:end], label="Demand", linestyle=':', linewidth=2)
