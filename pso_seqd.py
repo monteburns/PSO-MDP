@@ -225,7 +225,7 @@ def setup_dispatch_problem_hydrogen(
             h2_storage[t+1] <= hydrogen_capacity,
 
             grid_export[t] == gen[t] + discharge[t] - charge[t] - h2_prod[t] * electricity_to_hydrogen / electrolyzer_eff
-            grid_export[t] >= 0
+            #grid_export[t] >= 0
         ]
 
     revenue = cp.sum(cp.multiply(grid_export / 1e3, price)) + cp.sum(cp.multiply(h2_prod, hydrogen_price))
@@ -1345,7 +1345,7 @@ def main(args):
             best_pos_battery = [5, 18, 1, 30] # Example values
             print_results(best_pos_battery, args.optdis, args.rbdis)
         elif args.hydrogen:
-            best_pos_h2_pp = [8, 12, 12, 27, 15] # Adjust example values for hydrogen
+            best_pos_h2_pp = [6, 12, 12, 27, 15] # Adjust example values for hydrogen
             print_results(best_pos_h2_pp, args.optdis, args.rbdis)
         else:
             print("Please provide options for post process!")

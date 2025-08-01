@@ -1,0 +1,529 @@
+Hydrogen+Battery optdis h2=4,6...
+
+### H2-optdis | h2=4 | rel=0.05 | DAR=1.0 ###
+ No PPA is present, using day-ahead market prices
+2025-07-31 10:14:44,593 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 1.5, 'c2': 2.5, 'w': 0.3}
+
+pyswarms.single.global_best:   0%|          |0/50
+pyswarms.single.global_best:   0%|          |0/50, best_cost=1.31e+3
+pyswarms.single.global_best:   2%|▏         |1/50, best_cost=1.31e+3
+pyswarms.single.global_best:   2%|▏         |1/50, best_cost=948    
+pyswarms.single.global_best:   4%|▍         |2/50, best_cost=948
+pyswarms.single.global_best:   4%|▍         |2/50, best_cost=856
+pyswarms.single.global_best:   6%|▌         |3/50, best_cost=856
+pyswarms.single.global_best:   6%|▌         |3/50, best_cost=796
+pyswarms.single.global_best:   8%|▊         |4/50, best_cost=796
+pyswarms.single.global_best:   8%|▊         |4/50, best_cost=796
+pyswarms.single.global_best:  10%|█         |5/50, best_cost=796
+pyswarms.single.global_best:  10%|█         |5/50, best_cost=796
+pyswarms.single.global_best:  12%|█▏        |6/50, best_cost=796
+pyswarms.single.global_best:  12%|█▏        |6/50, best_cost=796
+pyswarms.single.global_best:  14%|█▍        |7/50, best_cost=796
+pyswarms.single.global_best:  14%|█▍        |7/50, best_cost=793
+pyswarms.single.global_best:  16%|█▌        |8/50, best_cost=793
+pyswarms.single.global_best:  16%|█▌        |8/50, best_cost=792
+pyswarms.single.global_best:  18%|█▊        |9/50, best_cost=792
+pyswarms.single.global_best:  18%|█▊        |9/50, best_cost=792
+pyswarms.single.global_best:  20%|██        |10/50, best_cost=792
+pyswarms.single.global_best:  20%|██        |10/50, best_cost=792
+pyswarms.single.global_best:  22%|██▏       |11/50, best_cost=792
+pyswarms.single.global_best:  22%|██▏       |11/50, best_cost=783
+pyswarms.single.global_best:  24%|██▍       |12/50, best_cost=783
+pyswarms.single.global_best:  24%|██▍       |12/50, best_cost=780
+pyswarms.single.global_best:  26%|██▌       |13/50, best_cost=780
+pyswarms.single.global_best:  26%|██▌       |13/50, best_cost=780
+pyswarms.single.global_best:  28%|██▊       |14/50, best_cost=780
+pyswarms.single.global_best:  28%|██▊       |14/50, best_cost=780
+pyswarms.single.global_best:  30%|███       |15/50, best_cost=780
+pyswarms.single.global_best:  30%|███       |15/50, best_cost=769
+pyswarms.single.global_best:  32%|███▏      |16/50, best_cost=769
+pyswarms.single.global_best:  32%|███▏      |16/50, best_cost=769
+pyswarms.single.global_best:  34%|███▍      |17/50, best_cost=769
+pyswarms.single.global_best:  34%|███▍      |17/50, best_cost=769
+pyswarms.single.global_best:  36%|███▌      |18/50, best_cost=769
+pyswarms.single.global_best:  36%|███▌      |18/50, best_cost=769
+pyswarms.single.global_best:  38%|███▊      |19/50, best_cost=769
+pyswarms.single.global_best:  38%|███▊      |19/50, best_cost=769
+pyswarms.single.global_best:  40%|████      |20/50, best_cost=769
+pyswarms.single.global_best:  40%|████      |20/50, best_cost=769
+pyswarms.single.global_best:  42%|████▏     |21/50, best_cost=769
+pyswarms.single.global_best:  42%|████▏     |21/50, best_cost=769
+pyswarms.single.global_best:  44%|████▍     |22/50, best_cost=769
+pyswarms.single.global_best:  44%|████▍     |22/50, best_cost=769
+pyswarms.single.global_best:  46%|████▌     |23/50, best_cost=769
+pyswarms.single.global_best:  46%|████▌     |23/50, best_cost=769
+pyswarms.single.global_best:  48%|████▊     |24/50, best_cost=769
+pyswarms.single.global_best:  48%|████▊     |24/50, best_cost=769
+pyswarms.single.global_best:  50%|█████     |25/50, best_cost=769
+pyswarms.single.global_best:  50%|█████     |25/50, best_cost=769
+pyswarms.single.global_best:  52%|█████▏    |26/50, best_cost=769
+pyswarms.single.global_best:  52%|█████▏    |26/50, best_cost=769
+pyswarms.single.global_best:  54%|█████▍    |27/50, best_cost=769
+pyswarms.single.global_best:  54%|█████▍    |27/50, best_cost=769
+pyswarms.single.global_best:  56%|█████▌    |28/50, best_cost=769
+pyswarms.single.global_best:  56%|█████▌    |28/50, best_cost=769
+pyswarms.single.global_best:  58%|█████▊    |29/50, best_cost=769
+pyswarms.single.global_best:  58%|█████▊    |29/50, best_cost=769
+pyswarms.single.global_best:  60%|██████    |30/50, best_cost=769
+pyswarms.single.global_best:  60%|██████    |30/50, best_cost=769
+pyswarms.single.global_best:  62%|██████▏   |31/50, best_cost=769
+pyswarms.single.global_best:  62%|██████▏   |31/50, best_cost=769
+pyswarms.single.global_best:  64%|██████▍   |32/50, best_cost=769
+pyswarms.single.global_best:  64%|██████▍   |32/50, best_cost=769
+pyswarms.single.global_best:  66%|██████▌   |33/50, best_cost=769
+pyswarms.single.global_best:  66%|██████▌   |33/50, best_cost=769
+pyswarms.single.global_best:  68%|██████▊   |34/50, best_cost=769
+pyswarms.single.global_best:  68%|██████▊   |34/50, best_cost=769
+pyswarms.single.global_best:  70%|███████   |35/50, best_cost=769
+pyswarms.single.global_best:  70%|███████   |35/50, best_cost=769
+pyswarms.single.global_best:  72%|███████▏  |36/50, best_cost=769
+pyswarms.single.global_best:  72%|███████▏  |36/50, best_cost=769
+pyswarms.single.global_best:  74%|███████▍  |37/50, best_cost=769
+pyswarms.single.global_best:  74%|███████▍  |37/50, best_cost=769
+pyswarms.single.global_best:  76%|███████▌  |38/50, best_cost=769
+pyswarms.single.global_best:  76%|███████▌  |38/50, best_cost=769
+pyswarms.single.global_best:  78%|███████▊  |39/50, best_cost=769
+pyswarms.single.global_best:  78%|███████▊  |39/50, best_cost=769
+pyswarms.single.global_best:  80%|████████  |40/50, best_cost=769
+pyswarms.single.global_best:  80%|████████  |40/50, best_cost=769
+pyswarms.single.global_best:  82%|████████▏ |41/50, best_cost=769
+pyswarms.single.global_best:  82%|████████▏ |41/50, best_cost=768
+pyswarms.single.global_best:  84%|████████▍ |42/50, best_cost=768
+pyswarms.single.global_best:  84%|████████▍ |42/50, best_cost=768
+pyswarms.single.global_best:  86%|████████▌ |43/50, best_cost=768
+pyswarms.single.global_best:  86%|████████▌ |43/50, best_cost=768
+pyswarms.single.global_best:  88%|████████▊ |44/50, best_cost=768
+pyswarms.single.global_best:  88%|████████▊ |44/50, best_cost=768
+pyswarms.single.global_best:  90%|█████████ |45/50, best_cost=768
+pyswarms.single.global_best:  90%|█████████ |45/50, best_cost=768
+pyswarms.single.global_best:  92%|█████████▏|46/50, best_cost=768
+pyswarms.single.global_best:  92%|█████████▏|46/50, best_cost=768
+pyswarms.single.global_best:  94%|█████████▍|47/50, best_cost=768
+pyswarms.single.global_best:  94%|█████████▍|47/50, best_cost=764
+pyswarms.single.global_best:  96%|█████████▌|48/50, best_cost=764
+pyswarms.single.global_best:  96%|█████████▌|48/50, best_cost=764
+pyswarms.single.global_best:  98%|█████████▊|49/50, best_cost=764
+pyswarms.single.global_best:  98%|█████████▊|49/50, best_cost=764
+pyswarms.single.global_best: 100%|██████████|50/50, best_cost=764
+pyswarms.single.global_best: 100%|██████████|50/50, best_cost=764
+2025-07-31 15:36:25,025 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 763.7648067308736, best pos: [ 5.8708532   0.58541611 17.82202259 66.33920187 45.81406727]
+
+Optimal Configuration:
+SMRs: 6
+Wind Turbines: 1
+Solar Panels: 18
+Battery Units: 66
+Hydrogen Units: 46
+Demand Matching Efficiency: 0.9507853455513371
+
+Financial Summary (Million $):
+Mean Electricity price: $61.75M
+Capital Cost: $2945.15M
+Annual O&M Cost: $101.79M
+Annual Electricity Revenue: $232.05M
+Annual Hydrogen Revenue: $7.28M
+Annual Net Revenue: $137.55M
+Simple Payback Period: 21.4 years
+
+Levelized Costs:
+LCOE: $72.18/MWh
+LCOH: $20.96/kg
+NPV: $-584.84M
+
+### H2-optdis | h2=4 | rel=0.05 | DAR=1.2 ###
+ No PPA is present, using day-ahead market prices
+2025-07-31 15:37:16,408 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 1.5, 'c2': 2.5, 'w': 0.3}
+
+pyswarms.single.global_best:   0%|          |0/50
+pyswarms.single.global_best:   0%|          |0/50, best_cost=33.3
+pyswarms.single.global_best:   2%|▏         |1/50, best_cost=33.3
+pyswarms.single.global_best:   2%|▏         |1/50, best_cost=-20.9
+pyswarms.single.global_best:   4%|▍         |2/50, best_cost=-20.9
+pyswarms.single.global_best:   4%|▍         |2/50, best_cost=-70.2
+pyswarms.single.global_best:   6%|▌         |3/50, best_cost=-70.2
+pyswarms.single.global_best:   6%|▌         |3/50, best_cost=-70.2
+pyswarms.single.global_best:   8%|▊         |4/50, best_cost=-70.2
+pyswarms.single.global_best:   8%|▊         |4/50, best_cost=-75.9
+pyswarms.single.global_best:  10%|█         |5/50, best_cost=-75.9
+pyswarms.single.global_best:  10%|█         |5/50, best_cost=-75.9
+pyswarms.single.global_best:  12%|█▏        |6/50, best_cost=-75.9
+pyswarms.single.global_best:  12%|█▏        |6/50, best_cost=-89.3
+pyswarms.single.global_best:  14%|█▍        |7/50, best_cost=-89.3
+pyswarms.single.global_best:  14%|█▍        |7/50, best_cost=-89.3
+pyswarms.single.global_best:  16%|█▌        |8/50, best_cost=-89.3
+pyswarms.single.global_best:  16%|█▌        |8/50, best_cost=-95.3
+pyswarms.single.global_best:  18%|█▊        |9/50, best_cost=-95.3
+pyswarms.single.global_best:  18%|█▊        |9/50, best_cost=-97.9
+pyswarms.single.global_best:  20%|██        |10/50, best_cost=-97.9
+pyswarms.single.global_best:  20%|██        |10/50, best_cost=-97.9
+pyswarms.single.global_best:  22%|██▏       |11/50, best_cost=-97.9
+pyswarms.single.global_best:  22%|██▏       |11/50, best_cost=-97.9
+pyswarms.single.global_best:  24%|██▍       |12/50, best_cost=-97.9
+pyswarms.single.global_best:  24%|██▍       |12/50, best_cost=-97.9
+pyswarms.single.global_best:  26%|██▌       |13/50, best_cost=-97.9
+pyswarms.single.global_best:  26%|██▌       |13/50, best_cost=-97.9
+pyswarms.single.global_best:  28%|██▊       |14/50, best_cost=-97.9
+pyswarms.single.global_best:  28%|██▊       |14/50, best_cost=-102 
+pyswarms.single.global_best:  30%|███       |15/50, best_cost=-102
+pyswarms.single.global_best:  30%|███       |15/50, best_cost=-102
+pyswarms.single.global_best:  32%|███▏      |16/50, best_cost=-102
+pyswarms.single.global_best:  32%|███▏      |16/50, best_cost=-102
+pyswarms.single.global_best:  34%|███▍      |17/50, best_cost=-102
+pyswarms.single.global_best:  34%|███▍      |17/50, best_cost=-102
+pyswarms.single.global_best:  36%|███▌      |18/50, best_cost=-102
+pyswarms.single.global_best:  36%|███▌      |18/50, best_cost=-102
+pyswarms.single.global_best:  38%|███▊      |19/50, best_cost=-102
+pyswarms.single.global_best:  38%|███▊      |19/50, best_cost=-106
+pyswarms.single.global_best:  40%|████      |20/50, best_cost=-106
+pyswarms.single.global_best:  40%|████      |20/50, best_cost=-106
+pyswarms.single.global_best:  42%|████▏     |21/50, best_cost=-106
+pyswarms.single.global_best:  42%|████▏     |21/50, best_cost=-111
+pyswarms.single.global_best:  44%|████▍     |22/50, best_cost=-111
+pyswarms.single.global_best:  44%|████▍     |22/50, best_cost=-111
+pyswarms.single.global_best:  46%|████▌     |23/50, best_cost=-111
+pyswarms.single.global_best:  46%|████▌     |23/50, best_cost=-111
+pyswarms.single.global_best:  48%|████▊     |24/50, best_cost=-111
+pyswarms.single.global_best:  48%|████▊     |24/50, best_cost=-111
+pyswarms.single.global_best:  50%|█████     |25/50, best_cost=-111
+pyswarms.single.global_best:  50%|█████     |25/50, best_cost=-121
+pyswarms.single.global_best:  52%|█████▏    |26/50, best_cost=-121
+pyswarms.single.global_best:  52%|█████▏    |26/50, best_cost=-121
+pyswarms.single.global_best:  54%|█████▍    |27/50, best_cost=-121
+pyswarms.single.global_best:  54%|█████▍    |27/50, best_cost=-121
+pyswarms.single.global_best:  56%|█████▌    |28/50, best_cost=-121
+pyswarms.single.global_best:  56%|█████▌    |28/50, best_cost=-121
+pyswarms.single.global_best:  58%|█████▊    |29/50, best_cost=-121
+pyswarms.single.global_best:  58%|█████▊    |29/50, best_cost=-121
+pyswarms.single.global_best:  60%|██████    |30/50, best_cost=-121
+pyswarms.single.global_best:  60%|██████    |30/50, best_cost=-121
+pyswarms.single.global_best:  62%|██████▏   |31/50, best_cost=-121
+pyswarms.single.global_best:  62%|██████▏   |31/50, best_cost=-121
+pyswarms.single.global_best:  64%|██████▍   |32/50, best_cost=-121
+pyswarms.single.global_best:  64%|██████▍   |32/50, best_cost=-121
+pyswarms.single.global_best:  66%|██████▌   |33/50, best_cost=-121
+pyswarms.single.global_best:  66%|██████▌   |33/50, best_cost=-121
+pyswarms.single.global_best:  68%|██████▊   |34/50, best_cost=-121
+pyswarms.single.global_best:  68%|██████▊   |34/50, best_cost=-121
+pyswarms.single.global_best:  70%|███████   |35/50, best_cost=-121
+pyswarms.single.global_best:  70%|███████   |35/50, best_cost=-121
+pyswarms.single.global_best:  72%|███████▏  |36/50, best_cost=-121
+pyswarms.single.global_best:  72%|███████▏  |36/50, best_cost=-121
+pyswarms.single.global_best:  74%|███████▍  |37/50, best_cost=-121
+pyswarms.single.global_best:  74%|███████▍  |37/50, best_cost=-122
+pyswarms.single.global_best:  76%|███████▌  |38/50, best_cost=-122
+pyswarms.single.global_best:  76%|███████▌  |38/50, best_cost=-122
+pyswarms.single.global_best:  78%|███████▊  |39/50, best_cost=-122
+pyswarms.single.global_best:  78%|███████▊  |39/50, best_cost=-122
+pyswarms.single.global_best:  80%|████████  |40/50, best_cost=-122
+pyswarms.single.global_best:  80%|████████  |40/50, best_cost=-122
+pyswarms.single.global_best:  82%|████████▏ |41/50, best_cost=-122
+pyswarms.single.global_best:  82%|████████▏ |41/50, best_cost=-122
+pyswarms.single.global_best:  84%|████████▍ |42/50, best_cost=-122
+pyswarms.single.global_best:  84%|████████▍ |42/50, best_cost=-122
+pyswarms.single.global_best:  86%|████████▌ |43/50, best_cost=-122
+pyswarms.single.global_best:  86%|████████▌ |43/50, best_cost=-127
+pyswarms.single.global_best:  88%|████████▊ |44/50, best_cost=-127
+pyswarms.single.global_best:  88%|████████▊ |44/50, best_cost=-127
+pyswarms.single.global_best:  90%|█████████ |45/50, best_cost=-127
+pyswarms.single.global_best:  90%|█████████ |45/50, best_cost=-127
+pyswarms.single.global_best:  92%|█████████▏|46/50, best_cost=-127
+pyswarms.single.global_best:  92%|█████████▏|46/50, best_cost=-127
+pyswarms.single.global_best:  94%|█████████▍|47/50, best_cost=-127
+pyswarms.single.global_best:  94%|█████████▍|47/50, best_cost=-127
+pyswarms.single.global_best:  96%|█████████▌|48/50, best_cost=-127
+pyswarms.single.global_best:  96%|█████████▌|48/50, best_cost=-127
+pyswarms.single.global_best:  98%|█████████▊|49/50, best_cost=-127
+pyswarms.single.global_best:  98%|█████████▊|49/50, best_cost=-127
+pyswarms.single.global_best: 100%|██████████|50/50, best_cost=-127
+pyswarms.single.global_best: 100%|██████████|50/50, best_cost=-127
+2025-07-31 21:03:08,285 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -127.20457519941661, best pos: [  5.61477804   0.7770217   21.53252459 104.31613073  37.68114033]
+
+Optimal Configuration:
+SMRs: 6
+Wind Turbines: 1
+Solar Panels: 22
+Battery Units: 104
+Hydrogen Units: 38
+Demand Matching Efficiency: 0.9500173392172833
+
+Financial Summary (Million $):
+Mean Electricity price: $74.10M
+Capital Cost: $2959.45M
+Annual O&M Cost: $101.63M
+Annual Electricity Revenue: $280.98M
+Annual Hydrogen Revenue: $6.48M
+Annual Net Revenue: $185.83M
+Simple Payback Period: 15.9 years
+
+Levelized Costs:
+LCOE: $71.84/MWh
+LCOH: $-5.93/kg
+NPV: $304.57M
+
+### H2-optdis | h2=4 | rel=0.05 | PPA=60 ###
+ Using fixed electricity price: 60.0 USD/MWh
+2025-07-31 21:04:00,410 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 1.5, 'c2': 2.5, 'w': 0.3}
+
+pyswarms.single.global_best:   0%|          |0/50
+pyswarms.single.global_best:   0%|          |0/50, best_cost=1.1e+3
+pyswarms.single.global_best:   2%|▏         |1/50, best_cost=1.1e+3
+pyswarms.single.global_best:   2%|▏         |1/50, best_cost=951   
+pyswarms.single.global_best:   4%|▍         |2/50, best_cost=951
+pyswarms.single.global_best:   4%|▍         |2/50, best_cost=951
+pyswarms.single.global_best:   6%|▌         |3/50, best_cost=951
+pyswarms.single.global_best:   6%|▌         |3/50, best_cost=936
+pyswarms.single.global_best:   8%|▊         |4/50, best_cost=936
+pyswarms.single.global_best:   8%|▊         |4/50, best_cost=914
+pyswarms.single.global_best:  10%|█         |5/50, best_cost=914
+pyswarms.single.global_best:  10%|█         |5/50, best_cost=914
+pyswarms.single.global_best:  12%|█▏        |6/50, best_cost=914
+pyswarms.single.global_best:  12%|█▏        |6/50, best_cost=914
+pyswarms.single.global_best:  14%|█▍        |7/50, best_cost=914
+pyswarms.single.global_best:  14%|█▍        |7/50, best_cost=914
+pyswarms.single.global_best:  16%|█▌        |8/50, best_cost=914
+pyswarms.single.global_best:  16%|█▌        |8/50, best_cost=914
+pyswarms.single.global_best:  18%|█▊        |9/50, best_cost=914
+pyswarms.single.global_best:  18%|█▊        |9/50, best_cost=914
+pyswarms.single.global_best:  20%|██        |10/50, best_cost=914
+pyswarms.single.global_best:  20%|██        |10/50, best_cost=914
+pyswarms.single.global_best:  22%|██▏       |11/50, best_cost=914
+pyswarms.single.global_best:  22%|██▏       |11/50, best_cost=914
+pyswarms.single.global_best:  24%|██▍       |12/50, best_cost=914
+pyswarms.single.global_best:  24%|██▍       |12/50, best_cost=907
+pyswarms.single.global_best:  26%|██▌       |13/50, best_cost=907
+pyswarms.single.global_best:  26%|██▌       |13/50, best_cost=907
+pyswarms.single.global_best:  28%|██▊       |14/50, best_cost=907
+pyswarms.single.global_best:  28%|██▊       |14/50, best_cost=906
+pyswarms.single.global_best:  30%|███       |15/50, best_cost=906
+pyswarms.single.global_best:  30%|███       |15/50, best_cost=906
+pyswarms.single.global_best:  32%|███▏      |16/50, best_cost=906
+pyswarms.single.global_best:  32%|███▏      |16/50, best_cost=903
+pyswarms.single.global_best:  34%|███▍      |17/50, best_cost=903
+pyswarms.single.global_best:  34%|███▍      |17/50, best_cost=903
+pyswarms.single.global_best:  36%|███▌      |18/50, best_cost=903
+pyswarms.single.global_best:  36%|███▌      |18/50, best_cost=903
+pyswarms.single.global_best:  38%|███▊      |19/50, best_cost=903
+pyswarms.single.global_best:  38%|███▊      |19/50, best_cost=903
+pyswarms.single.global_best:  40%|████      |20/50, best_cost=903
+pyswarms.single.global_best:  40%|████      |20/50, best_cost=903
+pyswarms.single.global_best:  42%|████▏     |21/50, best_cost=903
+pyswarms.single.global_best:  42%|████▏     |21/50, best_cost=903
+pyswarms.single.global_best:  44%|████▍     |22/50, best_cost=903
+pyswarms.single.global_best:  44%|████▍     |22/50, best_cost=903
+pyswarms.single.global_best:  46%|████▌     |23/50, best_cost=903
+pyswarms.single.global_best:  46%|████▌     |23/50, best_cost=903
+pyswarms.single.global_best:  48%|████▊     |24/50, best_cost=903
+pyswarms.single.global_best:  48%|████▊     |24/50, best_cost=903
+pyswarms.single.global_best:  50%|█████     |25/50, best_cost=903
+pyswarms.single.global_best:  50%|█████     |25/50, best_cost=903
+pyswarms.single.global_best:  52%|█████▏    |26/50, best_cost=903
+pyswarms.single.global_best:  52%|█████▏    |26/50, best_cost=903
+pyswarms.single.global_best:  54%|█████▍    |27/50, best_cost=903
+pyswarms.single.global_best:  54%|█████▍    |27/50, best_cost=903
+pyswarms.single.global_best:  56%|█████▌    |28/50, best_cost=903
+pyswarms.single.global_best:  56%|█████▌    |28/50, best_cost=903
+pyswarms.single.global_best:  58%|█████▊    |29/50, best_cost=903
+pyswarms.single.global_best:  58%|█████▊    |29/50, best_cost=903
+pyswarms.single.global_best:  60%|██████    |30/50, best_cost=903
+pyswarms.single.global_best:  60%|██████    |30/50, best_cost=903
+pyswarms.single.global_best:  62%|██████▏   |31/50, best_cost=903
+pyswarms.single.global_best:  62%|██████▏   |31/50, best_cost=903
+pyswarms.single.global_best:  64%|██████▍   |32/50, best_cost=903
+pyswarms.single.global_best:  64%|██████▍   |32/50, best_cost=903
+pyswarms.single.global_best:  66%|██████▌   |33/50, best_cost=903
+pyswarms.single.global_best:  66%|██████▌   |33/50, best_cost=903
+pyswarms.single.global_best:  68%|██████▊   |34/50, best_cost=903
+pyswarms.single.global_best:  68%|██████▊   |34/50, best_cost=903
+pyswarms.single.global_best:  70%|███████   |35/50, best_cost=903
+pyswarms.single.global_best:  70%|███████   |35/50, best_cost=903
+pyswarms.single.global_best:  72%|███████▏  |36/50, best_cost=903
+pyswarms.single.global_best:  72%|███████▏  |36/50, best_cost=903
+pyswarms.single.global_best:  74%|███████▍  |37/50, best_cost=903
+pyswarms.single.global_best:  74%|███████▍  |37/50, best_cost=903
+pyswarms.single.global_best:  76%|███████▌  |38/50, best_cost=903
+pyswarms.single.global_best:  76%|███████▌  |38/50, best_cost=903
+pyswarms.single.global_best:  78%|███████▊  |39/50, best_cost=903
+pyswarms.single.global_best:  78%|███████▊  |39/50, best_cost=903
+pyswarms.single.global_best:  80%|████████  |40/50, best_cost=903
+pyswarms.single.global_best:  80%|████████  |40/50, best_cost=903
+pyswarms.single.global_best:  82%|████████▏ |41/50, best_cost=903
+pyswarms.single.global_best:  82%|████████▏ |41/50, best_cost=903
+pyswarms.single.global_best:  84%|████████▍ |42/50, best_cost=903
+pyswarms.single.global_best:  84%|████████▍ |42/50, best_cost=903
+pyswarms.single.global_best:  86%|████████▌ |43/50, best_cost=903
+pyswarms.single.global_best:  86%|████████▌ |43/50, best_cost=903
+pyswarms.single.global_best:  88%|████████▊ |44/50, best_cost=903
+pyswarms.single.global_best:  88%|████████▊ |44/50, best_cost=903
+pyswarms.single.global_best:  90%|█████████ |45/50, best_cost=903
+pyswarms.single.global_best:  90%|█████████ |45/50, best_cost=903
+pyswarms.single.global_best:  92%|█████████▏|46/50, best_cost=903
+pyswarms.single.global_best:  92%|█████████▏|46/50, best_cost=903
+pyswarms.single.global_best:  94%|█████████▍|47/50, best_cost=903
+pyswarms.single.global_best:  94%|█████████▍|47/50, best_cost=903
+pyswarms.single.global_best:  96%|█████████▌|48/50, best_cost=903
+pyswarms.single.global_best:  96%|█████████▌|48/50, best_cost=903
+pyswarms.single.global_best:  98%|█████████▊|49/50, best_cost=903
+pyswarms.single.global_best:  98%|█████████▊|49/50, best_cost=903
+pyswarms.single.global_best: 100%|██████████|50/50, best_cost=903
+pyswarms.single.global_best: 100%|██████████|50/50, best_cost=903
+2025-08-01 01:53:41,625 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 903.0361259563477, best pos: [ 6.16569418  1.56367975 17.01273791 63.84879864 45.95263526]
+
+Optimal Configuration:
+SMRs: 6
+Wind Turbines: 2
+Solar Panels: 17
+Battery Units: 64
+Hydrogen Units: 46
+Demand Matching Efficiency: 0.950121796240188
+
+Financial Summary (Million $):
+PPA: $60.00M
+Capital Cost: $2944.18M
+Annual O&M Cost: $101.78M
+Annual Electricity Revenue: $224.71M
+Annual Hydrogen Revenue: $7.29M
+Annual Net Revenue: $130.22M
+Simple Payback Period: 22.6 years
+
+Levelized Costs:
+LCOE: $72.13/MWh
+LCOH: $24.91/kg
+NPV: $-721.82M
+
+### H2-optdis | h2=4 | rel=0.05 | PPA=80 ###
+ Using fixed electricity price: 80.0 USD/MWh
+2025-08-01 01:54:27,618 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 1.5, 'c2': 2.5, 'w': 0.3}
+
+pyswarms.single.global_best:   0%|          |0/50
+pyswarms.single.global_best:   0%|          |0/50, best_cost=-414
+pyswarms.single.global_best:   2%|▏         |1/50, best_cost=-414
+pyswarms.single.global_best:   2%|▏         |1/50, best_cost=-457
+pyswarms.single.global_best:   4%|▍         |2/50, best_cost=-457
+pyswarms.single.global_best:   4%|▍         |2/50, best_cost=-512
+pyswarms.single.global_best:   6%|▌         |3/50, best_cost=-512
+pyswarms.single.global_best:   6%|▌         |3/50, best_cost=-512
+pyswarms.single.global_best:   8%|▊         |4/50, best_cost=-512
+pyswarms.single.global_best:   8%|▊         |4/50, best_cost=-520
+pyswarms.single.global_best:  10%|█         |5/50, best_cost=-520
+pyswarms.single.global_best:  10%|█         |5/50, best_cost=-520
+pyswarms.single.global_best:  12%|█▏        |6/50, best_cost=-520
+pyswarms.single.global_best:  12%|█▏        |6/50, best_cost=-520
+pyswarms.single.global_best:  14%|█▍        |7/50, best_cost=-520
+pyswarms.single.global_best:  14%|█▍        |7/50, best_cost=-522
+pyswarms.single.global_best:  16%|█▌        |8/50, best_cost=-522
+pyswarms.single.global_best:  16%|█▌        |8/50, best_cost=-529
+pyswarms.single.global_best:  18%|█▊        |9/50, best_cost=-529
+pyswarms.single.global_best:  18%|█▊        |9/50, best_cost=-529
+pyswarms.single.global_best:  20%|██        |10/50, best_cost=-529
+pyswarms.single.global_best:  20%|██        |10/50, best_cost=-529
+pyswarms.single.global_best:  22%|██▏       |11/50, best_cost=-529
+pyswarms.single.global_best:  22%|██▏       |11/50, best_cost=-529
+pyswarms.single.global_best:  24%|██▍       |12/50, best_cost=-529
+pyswarms.single.global_best:  24%|██▍       |12/50, best_cost=-529
+pyswarms.single.global_best:  26%|██▌       |13/50, best_cost=-529
+pyswarms.single.global_best:  26%|██▌       |13/50, best_cost=-530
+pyswarms.single.global_best:  28%|██▊       |14/50, best_cost=-530
+pyswarms.single.global_best:  28%|██▊       |14/50, best_cost=-530
+pyswarms.single.global_best:  30%|███       |15/50, best_cost=-530
+pyswarms.single.global_best:  30%|███       |15/50, best_cost=-530
+pyswarms.single.global_best:  32%|███▏      |16/50, best_cost=-530
+pyswarms.single.global_best:  32%|███▏      |16/50, best_cost=-530
+pyswarms.single.global_best:  34%|███▍      |17/50, best_cost=-530
+pyswarms.single.global_best:  34%|███▍      |17/50, best_cost=-530
+pyswarms.single.global_best:  36%|███▌      |18/50, best_cost=-530
+pyswarms.single.global_best:  36%|███▌      |18/50, best_cost=-530
+pyswarms.single.global_best:  38%|███▊      |19/50, best_cost=-530
+pyswarms.single.global_best:  38%|███▊      |19/50, best_cost=-530
+pyswarms.single.global_best:  40%|████      |20/50, best_cost=-530
+pyswarms.single.global_best:  40%|████      |20/50, best_cost=-530
+pyswarms.single.global_best:  42%|████▏     |21/50, best_cost=-530
+pyswarms.single.global_best:  42%|████▏     |21/50, best_cost=-530
+pyswarms.single.global_best:  44%|████▍     |22/50, best_cost=-530
+pyswarms.single.global_best:  44%|████▍     |22/50, best_cost=-530
+pyswarms.single.global_best:  46%|████▌     |23/50, best_cost=-530
+pyswarms.single.global_best:  46%|████▌     |23/50, best_cost=-530
+pyswarms.single.global_best:  48%|████▊     |24/50, best_cost=-530
+pyswarms.single.global_best:  48%|████▊     |24/50, best_cost=-530
+pyswarms.single.global_best:  50%|█████     |25/50, best_cost=-530
+pyswarms.single.global_best:  50%|█████     |25/50, best_cost=-530
+pyswarms.single.global_best:  52%|█████▏    |26/50, best_cost=-530
+pyswarms.single.global_best:  52%|█████▏    |26/50, best_cost=-530
+pyswarms.single.global_best:  54%|█████▍    |27/50, best_cost=-530
+pyswarms.single.global_best:  54%|█████▍    |27/50, best_cost=-530
+pyswarms.single.global_best:  56%|█████▌    |28/50, best_cost=-530
+pyswarms.single.global_best:  56%|█████▌    |28/50, best_cost=-530
+pyswarms.single.global_best:  58%|█████▊    |29/50, best_cost=-530
+pyswarms.single.global_best:  58%|█████▊    |29/50, best_cost=-530
+pyswarms.single.global_best:  60%|██████    |30/50, best_cost=-530
+pyswarms.single.global_best:  60%|██████    |30/50, best_cost=-530
+pyswarms.single.global_best:  62%|██████▏   |31/50, best_cost=-530
+pyswarms.single.global_best:  62%|██████▏   |31/50, best_cost=-530
+pyswarms.single.global_best:  64%|██████▍   |32/50, best_cost=-530
+pyswarms.single.global_best:  64%|██████▍   |32/50, best_cost=-530
+pyswarms.single.global_best:  66%|██████▌   |33/50, best_cost=-530
+pyswarms.single.global_best:  66%|██████▌   |33/50, best_cost=-530
+pyswarms.single.global_best:  68%|██████▊   |34/50, best_cost=-530
+pyswarms.single.global_best:  68%|██████▊   |34/50, best_cost=-530
+pyswarms.single.global_best:  70%|███████   |35/50, best_cost=-530
+pyswarms.single.global_best:  70%|███████   |35/50, best_cost=-530
+pyswarms.single.global_best:  72%|███████▏  |36/50, best_cost=-530
+pyswarms.single.global_best:  72%|███████▏  |36/50, best_cost=-530
+pyswarms.single.global_best:  74%|███████▍  |37/50, best_cost=-530
+pyswarms.single.global_best:  74%|███████▍  |37/50, best_cost=-530
+pyswarms.single.global_best:  76%|███████▌  |38/50, best_cost=-530
+pyswarms.single.global_best:  76%|███████▌  |38/50, best_cost=-530
+pyswarms.single.global_best:  78%|███████▊  |39/50, best_cost=-530
+pyswarms.single.global_best:  78%|███████▊  |39/50, best_cost=-530
+pyswarms.single.global_best:  80%|████████  |40/50, best_cost=-530
+pyswarms.single.global_best:  80%|████████  |40/50, best_cost=-531
+pyswarms.single.global_best:  82%|████████▏ |41/50, best_cost=-531
+pyswarms.single.global_best:  82%|████████▏ |41/50, best_cost=-531
+pyswarms.single.global_best:  84%|████████▍ |42/50, best_cost=-531
+pyswarms.single.global_best:  84%|████████▍ |42/50, best_cost=-531
+pyswarms.single.global_best:  86%|████████▌ |43/50, best_cost=-531
+pyswarms.single.global_best:  86%|████████▌ |43/50, best_cost=-531
+pyswarms.single.global_best:  88%|████████▊ |44/50, best_cost=-531
+pyswarms.single.global_best:  88%|████████▊ |44/50, best_cost=-531
+pyswarms.single.global_best:  90%|█████████ |45/50, best_cost=-531
+pyswarms.single.global_best:  90%|█████████ |45/50, best_cost=-531
+pyswarms.single.global_best:  92%|█████████▏|46/50, best_cost=-531
+pyswarms.single.global_best:  92%|█████████▏|46/50, best_cost=-531
+pyswarms.single.global_best:  94%|█████████▍|47/50, best_cost=-531
+pyswarms.single.global_best:  94%|█████████▍|47/50, best_cost=-531
+pyswarms.single.global_best:  96%|█████████▌|48/50, best_cost=-531
+pyswarms.single.global_best:  96%|█████████▌|48/50, best_cost=-531
+pyswarms.single.global_best:  98%|█████████▊|49/50, best_cost=-531
+pyswarms.single.global_best:  98%|█████████▊|49/50, best_cost=-531
+pyswarms.single.global_best: 100%|██████████|50/50, best_cost=-531
+pyswarms.single.global_best: 100%|██████████|50/50, best_cost=-531
+2025-08-01 06:42:41,216 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -531.2252922319881, best pos: [ 6.01242276  4.49330476 26.85179238 79.84591957 41.99316388]
+
+Optimal Configuration:
+SMRs: 6
+Wind Turbines: 4
+Solar Panels: 27
+Battery Units: 80
+Hydrogen Units: 42
+Demand Matching Efficiency: 0.950109762301857
+
+Financial Summary (Million $):
+PPA: $80.00M
+Capital Cost: $2983.53M
+Annual O&M Cost: $102.15M
+Annual Electricity Revenue: $303.35M
+Annual Hydrogen Revenue: $7.45M
+Annual Net Revenue: $208.64M
+Simple Payback Period: 14.3 years
+
+Levelized Costs:
+LCOE: $72.12/MWh
+LCOH: $-16.03/kg
+NPV: $706.43M
+
+### H2-optdis | h2=4 | rel=0.10 | DAR=1.0 ###
+ No PPA is present, using day-ahead market prices
+2025-08-01 06:43:28,363 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 1.5, 'c2': 2.5, 'w': 0.3}
+
+pyswarms.single.global_best:   0%|          |0/50
+pyswarms.single.global_best:   0%|          |0/50, best_cost=828
+pyswarms.single.global_best:   2%|▏         |1/50, best_cost=828

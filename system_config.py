@@ -50,5 +50,5 @@ SYSTEMS = {
 discount_rate = 0.05
 project_lifetime = 60
 electricity_to_hydrogen = 55 
-hydrogen_price = 6  # USD/kg
+hydrogen_price = 7  # USD/kg
 cap_obj = 600000  # Target capacity in kW

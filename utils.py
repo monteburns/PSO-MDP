@@ -131,6 +131,56 @@ def compute_lcoe(project_lifetime, discount_rate, annual_om_cost,
 
     return lcoe
 
+def calculate_costs(x, SYSTEMS, discount_rate):
+    """
+    Calculate annual O&M cost, annualized CAPEX, and total capital cost for the energy system.
+
+    Returns:
+        dict: {
+            "annual_om_cost": ... (Million USD),
+            "annual_capex": ... (Million USD),
+            "total_capital_cost": ... (Million USD)
+        }
+    """
+    num_SMR = int(round(x[0]))
+    num_wind = int(round(x[1]))
+    num_solar = int(round(x[2]))
+    num_battery = int(round(x[3]))
+    if len(x) > 4:
+        num_electrolyzer = int(round(x[4]))
+    else:
+        num_electrolyzer = 0
+
+
+    # Annual O&M cost (Million USD)
+    annual_om_cost = (
+        num_SMR * SYSTEMS["SMR"]["capacity"] * SYSTEMS["SMR"]["O&M"] +
+        num_wind * SYSTEMS["wind"]["capacity"] * SYSTEMS["wind"]["O&M"] +
+        num_solar * SYSTEMS["solar"]["capacity"] * SYSTEMS["solar"]["O&M"] +
+        num_battery * SYSTEMS["battery"]["capacity"] * SYSTEMS["battery"]["O&M"] +
+        num_electrolyzer * SYSTEMS["electrolyzer"]["capacity"] * SYSTEMS["electrolyzer"]["O&M"]
+    ) / 1e6
+
+    # Annualized CAPEX (Million USD)
+    annual_capex = (
+        num_SMR * SYSTEMS["SMR"]["capacity"] * SYSTEMS["SMR"]["capital"] * crf(discount_rate, SYSTEMS["SMR"]["lifetime"]) +
+        num_wind * SYSTEMS["wind"]["capacity"] * SYSTEMS["wind"]["capital"] * crf(discount_rate, SYSTEMS["wind"]["lifetime"]) +
+        num_solar * SYSTEMS["solar"]["capacity"] * SYSTEMS["solar"]["capital"] * crf(discount_rate, SYSTEMS["solar"]["lifetime"]) +
+        num_battery * SYSTEMS["battery"]["capacity"] * SYSTEMS["battery"]["capital"] * crf(discount_rate, SYSTEMS["battery"]["lifetime"]) +
+        num_electrolyzer * SYSTEMS["electrolyzer"]["capacity"] * SYSTEMS["electrolyzer"]["capital"] * crf(discount_rate, SYSTEMS["electrolyzer"]["lifetime"])
+    ) / 1e6
+
+    # Total Capital Cost (Million USD)
+    total_capital_cost = (
+        num_SMR * SYSTEMS["SMR"]["capacity"] * SYSTEMS["SMR"]["capital"] +
+        num_wind * SYSTEMS["wind"]["capacity"] * SYSTEMS["wind"]["capital"] +
+        num_solar * SYSTEMS["solar"]["capacity"] * SYSTEMS["solar"]["capital"] +
+        num_battery * SYSTEMS["battery"]["capacity"] * SYSTEMS["battery"]["capital"] +
+        num_electrolyzer * SYSTEMS["electrolyzer"]["capacity"] * SYSTEMS["electrolyzer"]["capital"]
+    ) / 1e6
+
+    return annual_om_cost, annual_capex, total_capital_cost
+
 
 
 
